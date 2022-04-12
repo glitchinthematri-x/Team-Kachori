@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FECA164F-5617-46C7-B5E6-2D44B66EC92A}" SchemaVersion="97">
+	<InteractiveMusic>
+		<WorkUnit Name="music" ID="{FECA164F-5617-46C7-B5E6-2D44B66EC92A}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="music_daytime" ID="{D6A60316-0A6D-41EE-A087-E5CD4C9C1EFD}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>

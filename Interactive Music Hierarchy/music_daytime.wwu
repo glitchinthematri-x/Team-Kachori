@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D6A60316-0A6D-41EE-A087-E5CD4C9C1EFD}" SchemaVersion="97" RootDocumentID="{FECA164F-5617-46C7-B5E6-2D44B66EC92A}">
+	<InteractiveMusic>
+		<WorkUnit Name="music_daytime" ID="{D6A60316-0A6D-41EE-A087-E5CD4C9C1EFD}" OwnerID="{FECA164F-5617-46C7-B5E6-2D44B66EC92A}" PersistMode="Nested">
+			<ChildrenList>
+				<MusicPlaylistContainer Name="music_daytime" ID="{66BF3DE1-F904-4AA0-B0EF-ED8E2BAD3C26}" ShortID="953986364">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9466A7B2-1FFE-4730-806E-A0EECC9AEC16}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0A9A9DEA-FC91-4D79-9AEC-D4BCB1A93F70}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="music_daytime_verse" ID="{FDB0F1DF-66A8-40F9-9D16-3BE1E14C45A2}" ShortID="865393339">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="8743.14583333333"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9466A7B2-1FFE-4730-806E-A0EECC9AEC16}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0A9A9DEA-FC91-4D79-9AEC-D4BCB1A93F70}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="piano" ID="{A9D8AF46-C189-4393-8536-F3A6DD03F9F1}" ShortID="702111235">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9466A7B2-1FFE-4730-806E-A0EECC9AEC16}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0A9A9DEA-FC91-4D79-9AEC-D4BCB1A93F70}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ONLY_V_Piano" ID="{2B25260E-0EF1-43BE-A021-3AB4CDF90416}">
+											<Language>SFX</Language>
+											<AudioFile>T3_17_18_Mx_Music_Demo_Class_1of2\Mx_NIN\NIN_Verse_Stems\ONLY_V_Piano.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="180971805"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{4B39E174-B280-4F5D-B31A-BFC455D565BB}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{999E6416-309B-447A-9F0A-8174FE605A8D}">
+											<ClipList>
+												<MusicClip Name="ONLY_V_Piano" ID="{819F1399-4389-40C7-9703-78318D3BF253}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="8571.45833333333"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="ONLY_V_Piano" ID="{2B25260E-0EF1-43BE-A021-3AB4CDF90416}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="vox_tail" ID="{0D0BA586-0FC7-4FC6-90B8-AF73F2F4BF02}" ShortID="268602273">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9466A7B2-1FFE-4730-806E-A0EECC9AEC16}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0A9A9DEA-FC91-4D79-9AEC-D4BCB1A93F70}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ONLY_V_Vox2_wTail" ID="{97FDE47E-06D4-4769-AA11-D6466281586D}">
+											<Language>SFX</Language>
+											<AudioFile>T3_17_18_Mx_Music_Demo_Class_1of2\Mx_NIN\NIN_Verse_Stems\ONLY_V_Vox2_wTail.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1032729956"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{9F4F3290-3892-4AC7-9AC8-0F91A6F5090D}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{9A546B51-A1B3-4C8D-BFAA-1D8EFBEC0D6D}">
+											<ClipList>
+												<MusicClip Name="ONLY_V_Vox2_wTail" ID="{35EFFAF2-57C6-45D7-8EBA-5849F19DE979}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="8743.14583333333"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="ONLY_V_Vox2_wTail" ID="{97FDE47E-06D4-4769-AA11-D6466281586D}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="guitar" ID="{E9DAD22D-DB5E-4A53-88A1-A44F7F074EA1}" ShortID="243498507">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9466A7B2-1FFE-4730-806E-A0EECC9AEC16}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0A9A9DEA-FC91-4D79-9AEC-D4BCB1A93F70}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ONLY_V_Guitar" ID="{DB31B332-986D-41B3-BE8B-9B5FA47BE321}">
+											<Language>SFX</Language>
+											<AudioFile>T3_17_18_Mx_Music_Demo_Class_1of2\Mx_NIN\NIN_Verse_Stems\ONLY_V_Guitar.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="965560301"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{EC133D3D-B3F4-4344-B9E1-9DA8F3F9C8C7}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{6F73DB0C-54A8-4E64-9D7D-EFDACA51B2A8}">
+											<ClipList>
+												<MusicClip Name="ONLY_V_Guitar" ID="{0B3AF630-D4A0-4A54-A3DA-4A272701C1FE}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="8571.45833333333"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="ONLY_V_Guitar" ID="{DB31B332-986D-41B3-BE8B-9B5FA47BE321}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="drums" ID="{D1B80918-5045-45D5-A739-24A553327A8C}" ShortID="706641213">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9466A7B2-1FFE-4730-806E-A0EECC9AEC16}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0A9A9DEA-FC91-4D79-9AEC-D4BCB1A93F70}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ONLY_V_Drums" ID="{942FF8FA-2805-4F53-ABC3-4CD1754A26A7}">
+											<Language>SFX</Language>
+											<AudioFile>T3_17_18_Mx_Music_Demo_Class_1of2\Mx_NIN\NIN_Verse_Stems\ONLY_V_Drums.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="568203613"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{F07892BA-168E-45C4-B31A-88445BDFC49B}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{4B3F2C79-9D8D-469A-88E7-A55CAEAA1ED7}">
+											<ClipList>
+												<MusicClip Name="ONLY_V_Drums" ID="{19C67AE8-20EE-4919-AEAB-AA4A6221248C}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="8571.45833333333"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="ONLY_V_Drums" ID="{942FF8FA-2805-4F53-ABC3-4CD1754A26A7}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="bass" ID="{B5D24E5C-14F7-4F03-B3F1-98E149676704}" ShortID="764568087">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9466A7B2-1FFE-4730-806E-A0EECC9AEC16}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0A9A9DEA-FC91-4D79-9AEC-D4BCB1A93F70}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ONLY_V_Bass" ID="{C54F29A1-A77A-4714-BA9A-D51C24C2BB24}">
+											<Language>SFX</Language>
+											<AudioFile>T3_17_18_Mx_Music_Demo_Class_1of2\Mx_NIN\NIN_Verse_Stems\ONLY_V_Bass.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="333672294"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{A87B815A-141F-409F-A82A-591F15DE9556}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{AB2A6527-D4C6-4350-A8FE-D450BE258391}">
+											<ClipList>
+												<MusicClip Name="ONLY_V_Bass" ID="{849AF0D2-556A-4206-9E9E-9DC50B71BACE}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="8571.45833333333"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="ONLY_V_Bass" ID="{C54F29A1-A77A-4714-BA9A-D51C24C2BB24}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{38AB326D-8E42-4377-91EE-42C1948DCDB7}"/>
+								<MusicCue Name="Exit Cue" ID="{80EFCB4E-D98C-4EBC-B8BA-1CCB6B97B333}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="1000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{B2C9591C-7514-4A25-BE9C-D940077DCF5A}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{CA1831CF-5DA2-421D-9FCB-99FF7C9CAE02}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<Playlist>
+						<MusicPlaylistItem Name="" ID="{D4ED2945-F580-43B6-8E0A-1D479D947805}" ShortID="781412665">
+							<PropertyList>
+								<Property Name="PlayMode" Type="int16" Value="2"/>
+							</PropertyList>
+						</MusicPlaylistItem>
+					</Playlist>
+				</MusicPlaylistContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>
