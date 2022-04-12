@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D1908DBF-DDA8-4FEC-BBF4-5F6F724FDC94}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="ambience" ID="{D1908DBF-DDA8-4FEC-BBF4-5F6F724FDC94}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="14"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Event Name="play_rain" ID="{1205F9E5-6E5F-4753-A3C4-34DE6E43EFA5}">
+					<ChildrenList>
+						<Action Name="" ID="{19D5E779-4E0A-484C-8CBF-56922BD1120E}" ShortID="977478157">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="amb_rain_" ID="{6545342E-8BCA-4EB5-87F1-FB744B34B0DC}" WorkUnitID="{08626FE5-0A3C-4E03-BD7D-788CE4722C52}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="stop_rain" ID="{48F51F7D-6CCC-41F4-AFFA-BD7D4E3FA102}">
+					<ChildrenList>
+						<Action Name="" ID="{DC3ACE9C-C91E-40D4-B9EC-EE9EA9A64943}" ShortID="426566625">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="amb_rain_" ID="{6545342E-8BCA-4EB5-87F1-FB744B34B0DC}" WorkUnitID="{08626FE5-0A3C-4E03-BD7D-788CE4722C52}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
