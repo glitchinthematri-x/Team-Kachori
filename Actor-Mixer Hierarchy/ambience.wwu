@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B5CFD35A-21FF-4EEA-9ACB-1A800C2C9A1D}" SchemaVersion="97">
+	<AudioObjects>
+		<WorkUnit Name="ambience" ID="{B5CFD35A-21FF-4EEA-9ACB-1A800C2C9A1D}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="14"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<ActorMixer Name="ambience" ID="{CB24947F-365A-4F55-B7E3-9BE4627B6B45}" ShortID="631320680">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9466A7B2-1FFE-4730-806E-A0EECC9AEC16}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0A9A9DEA-FC91-4D79-9AEC-D4BCB1A93F70}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<BlendContainer Name="amb_day" ID="{606FB402-7E24-4D63-B836-8F3A3D72E558}" ShortID="117716125">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9466A7B2-1FFE-4730-806E-A0EECC9AEC16}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0A9A9DEA-FC91-4D79-9AEC-D4BCB1A93F70}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="ambience_daytime" ID="{A6E7589E-0EF4-4AA6-B19B-79E0376F8476}" ShortID="823822364">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9466A7B2-1FFE-4730-806E-A0EECC9AEC16}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0A9A9DEA-FC91-4D79-9AEC-D4BCB1A93F70}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ambience_daytime" ID="{62051297-14CF-428E-BC15-F91B615E0783}">
+											<Language>SFX</Language>
+											<AudioFile>ambience\ambience_daytime.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="737319520"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ambience_daytime" ID="{62051297-14CF-428E-BC15-F91B615E0783}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</BlendContainer>
+						<WorkUnit Name="amb_rain" ID="{08626FE5-0A3C-4E03-BD7D-788CE4722C52}" PersistMode="Reference"/>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
