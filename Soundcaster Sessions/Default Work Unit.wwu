@@ -1,6 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{64DD7242-8D30-4D84-931A-FE39B25E25D9}" SchemaVersion="97">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{64DD7242-8D30-4D84-931A-FE39B25E25D9}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{64DD7242-8D30-4D84-931A-FE39B25E25D9}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="pig_speak" ID="{C9A968D9-B739-4514-954D-5EF5AA298465}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="pig_speak" ID="{85BA1D6E-159D-4DEE-A48E-918268918395}" WorkUnitID="{049302BC-4B22-4268-A205-E590F685FB20}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="pig_death" ID="{87EAD6E0-88D1-4D43-B88C-1D4D43CD035E}" WorkUnitID="{049302BC-4B22-4268-A205-E590F685FB20}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="pig_speak_stop" ID="{A48157A2-11EF-4912-80C8-C126910B6AFD}" WorkUnitID="{049302BC-4B22-4268-A205-E590F685FB20}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="pig_death_stop" ID="{7A183E41-AAD5-47E2-8C26-2429728D0A88}" WorkUnitID="{049302BC-4B22-4268-A205-E590F685FB20}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>

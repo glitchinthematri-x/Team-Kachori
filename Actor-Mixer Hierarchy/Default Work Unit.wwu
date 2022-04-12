@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{6AB4EB29-3C2C-4275-BB42-C33725E219AE}" SchemaVersion="97">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{6AB4EB29-3C2C-4275-BB42-C33725E219AE}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{6AB4EB29-3C2C-4275-BB42-C33725E219AE}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="pig_speak" ID="{F3DFFFA3-DF1C-4322-8C50-41F95E90EAC1}" ShortID="380334743"/>
+				<Folder Name="pig_death" ID="{0A3F8314-3210-4EC5-BDD5-BB5BB7E98CAF}" ShortID="277958269"/>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

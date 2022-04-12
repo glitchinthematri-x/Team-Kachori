@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2C0456AC-CAB3-4B7F-AC4C-F7EC03BC9982}" SchemaVersion="97">
+	<AudioObjects>
+		<WorkUnit Name="animal_sfx" ID="{2C0456AC-CAB3-4B7F-AC4C-F7EC03BC9982}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="pig_sfx" ID="{983E52CB-3589-4DF1-902A-F5ADD8023F18}" ShortID="258894702">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9466A7B2-1FFE-4730-806E-A0EECC9AEC16}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0A9A9DEA-FC91-4D79-9AEC-D4BCB1A93F70}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<WorkUnit Name="pig_vox" ID="{37C36750-9DAF-4D40-960D-45F9E7D83437}" PersistMode="Reference"/>
+						<WorkUnit Name="pig_death" ID="{99ACF398-F19B-4D8A-B662-8B9E3B84ABD0}" PersistMode="Reference"/>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
