@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{BA4212D3-5746-48A1-B602-CCB72147D065}" SchemaVersion="97" RootDocumentID="{6AB4EB29-3C2C-4275-BB42-C33725E219AE}">
+<WwiseDocument Type="WorkUnit" ID="{BA4212D3-5746-48A1-B602-CCB72147D065}" SchemaVersion="97">
 	<AudioObjects>
-		<WorkUnit Name="dia_steve" ID="{BA4212D3-5746-48A1-B602-CCB72147D065}" OwnerID="{6AB4EB29-3C2C-4275-BB42-C33725E219AE}" PersistMode="Nested">
+		<WorkUnit Name="dia_steve" ID="{BA4212D3-5746-48A1-B602-CCB72147D065}" PersistMode="Standalone">
 			<ChildrenList>
 				<ActorMixer Name="reactions" ID="{53BF3505-8475-41D3-9045-18E9010ABB8D}" ShortID="427860346">
 					<ReferenceList>
