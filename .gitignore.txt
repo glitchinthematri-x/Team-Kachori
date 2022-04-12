@@ -1,0 +1,18 @@
+# Team Kachori
+# Sandy, Dhruv, Shashwat, Sam Leff
+# - Root folder is a Wwise project
+
+.cache/
+.backup/
+
+IncrementalSoundBankData.xml
+
+*.akd
+*.akpk
+*.bnk
+*.prof
+*.validationcache
+*.wsettings
+
+
+
