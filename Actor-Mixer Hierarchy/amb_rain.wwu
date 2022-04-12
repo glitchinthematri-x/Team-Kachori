@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{08626FE5-0A3C-4E03-BD7D-788CE4722C52}" SchemaVersion="97" RootDocumentID="{B5CFD35A-21FF-4EEA-9ACB-1A800C2C9A1D}">
+	<AudioObjects>
+		<WorkUnit Name="amb_rain" ID="{08626FE5-0A3C-4E03-BD7D-788CE4722C52}" OwnerID="{CB24947F-365A-4F55-B7E3-9BE4627B6B45}" PersistMode="Nested">
+			<ChildrenList>
+				<BlendContainer Name="amb_rain_" ID="{6545342E-8BCA-4EB5-87F1-FB744B34B0DC}" ShortID="37383687">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9466A7B2-1FFE-4730-806E-A0EECC9AEC16}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0A9A9DEA-FC91-4D79-9AEC-D4BCB1A93F70}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="amb_rain_med_1" ID="{F6B4294F-5D92-4F48-91E4-3186D8EC44BB}" ShortID="1064716586">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9466A7B2-1FFE-4730-806E-A0EECC9AEC16}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0A9A9DEA-FC91-4D79-9AEC-D4BCB1A93F70}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="amb_rain_med_1" ID="{BEBAC2CB-786B-42E3-B8F2-B12F3868B503}">
+									<Language>SFX</Language>
+									<AudioFile>ambience\amb_rain_med_1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="970907934"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="amb_rain_med_1" ID="{BEBAC2CB-786B-42E3-B8F2-B12F3868B503}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="amb_rain_light_1" ID="{A33DA76D-0230-48E6-9427-56C301F10879}" ShortID="839787308">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9466A7B2-1FFE-4730-806E-A0EECC9AEC16}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0A9A9DEA-FC91-4D79-9AEC-D4BCB1A93F70}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="amb_rain_light_1" ID="{91E40682-3025-472A-B6EE-7A52CF768732}">
+									<Language>SFX</Language>
+									<AudioFile>ambience\amb_rain_light_1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="549234829"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="amb_rain_light_1" ID="{91E40682-3025-472A-B6EE-7A52CF768732}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="amb_rain_heavy_1" ID="{D87CC21D-52A9-41DC-A497-761601AE0F20}" ShortID="624973843">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9466A7B2-1FFE-4730-806E-A0EECC9AEC16}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0A9A9DEA-FC91-4D79-9AEC-D4BCB1A93F70}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="amb_rain_heavy_1" ID="{B45AF252-E879-423F-B040-1A1E6F46A7B6}">
+									<Language>SFX</Language>
+									<AudioFile>ambience\amb_rain_heavy_1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1070797044"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="amb_rain_heavy_1" ID="{B45AF252-E879-423F-B040-1A1E6F46A7B6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="amb_rain_very_heavy_1" ID="{C19B0350-AAC4-4CBA-8B72-9E8A449BB89C}" ShortID="839182782">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9466A7B2-1FFE-4730-806E-A0EECC9AEC16}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0A9A9DEA-FC91-4D79-9AEC-D4BCB1A93F70}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="amb_rain_very_heavy_1" ID="{BA8C18DC-B185-432E-BD58-52B101584725}">
+									<Language>SFX</Language>
+									<AudioFile>ambience\amb_rain_very_heavy_1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="69938734"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="amb_rain_very_heavy_1" ID="{BA8C18DC-B185-432E-BD58-52B101584725}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<BlendTrackList>
+						<BlendTrack Name="rain_intenstiy" ID="{E4145317-F3ED-4B86-8FA9-3977BD1B49F2}" ShortID="40455516">
+							<PropertyList>
+								<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+								<Property Name="MakeUpGain" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{65022B89-F829-47AD-AB74-EE7915992EFB}" ShortID="98248336">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="rain_intensity" ID="{625BC551-3E8D-465F-8761-3257A8D43255}" WorkUnitID="{F0A22E25-0D56-4BEA-A1A4-5CA5F45BF5EE}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{37510C3E-8AE5-49D1-B30A-ABA398E09312}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-4.86076</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>8</XPos>
+														<YPos>-1.5218</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<RTPCList>
+										<RTPC Name="" ID="{74F9C793-437B-4B9B-9205-E443CF9883D1}" ShortID="519906227">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="rain_intensity" ID="{625BC551-3E8D-465F-8761-3257A8D43255}" WorkUnitID="{F0A22E25-0D56-4BEA-A1A4-5CA5F45BF5EE}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{0B1B9C43-C70C-4167-877E-56D25691422A}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-1028</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>5.89893</XPos>
+														<YPos>-1042</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>8</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="LayerCrossFadeControlInput">
+									<ObjectRef Name="rain_intensity" ID="{625BC551-3E8D-465F-8761-3257A8D43255}" WorkUnitID="{F0A22E25-0D56-4BEA-A1A4-5CA5F45BF5EE}"/>
+								</Reference>
+							</ReferenceList>
+							<BlendTrackAssocList>
+								<BlendTrackAssoc>
+									<ItemRef Name="amb_rain_light_1" ID="{A33DA76D-0230-48E6-9427-56C301F10879}"/>
+									<CrossfadingInfo>
+										<LeftEdgePos>0</LeftEdgePos>
+										<LeftFadingMode>Automatic</LeftFadingMode>
+										<RightEdgePos>2.65491970640569</RightEdgePos>
+										<RightFadingMode>Automatic</RightFadingMode>
+									</CrossfadingInfo>
+								</BlendTrackAssoc>
+								<BlendTrackAssoc>
+									<ItemRef Name="amb_rain_med_1" ID="{F6B4294F-5D92-4F48-91E4-3186D8EC44BB}"/>
+									<CrossfadingInfo>
+										<LeftEdgePos>1.8039818727758</LeftEdgePos>
+										<LeftFadingMode>Automatic</LeftFadingMode>
+										<RightEdgePos>4.20621341192171</RightEdgePos>
+										<RightFadingMode>Automatic</RightFadingMode>
+									</CrossfadingInfo>
+								</BlendTrackAssoc>
+								<BlendTrackAssoc>
+									<ItemRef Name="amb_rain_heavy_1" ID="{D87CC21D-52A9-41DC-A497-761601AE0F20}"/>
+									<CrossfadingInfo>
+										<LeftEdgePos>3.70830048932384</LeftEdgePos>
+										<LeftFadingMode>Automatic</LeftFadingMode>
+										<RightEdgePos>6.46975088967971</RightEdgePos>
+										<RightFadingMode>Automatic</RightFadingMode>
+									</CrossfadingInfo>
+								</BlendTrackAssoc>
+								<BlendTrackAssoc>
+									<ItemRef Name="amb_rain_very_heavy_1" ID="{C19B0350-AAC4-4CBA-8B72-9E8A449BB89C}"/>
+									<CrossfadingInfo>
+										<LeftEdgePos>5.94875444839858</LeftEdgePos>
+										<LeftFadingMode>Automatic</LeftFadingMode>
+										<RightEdgePos>8</RightEdgePos>
+										<RightFadingMode>Automatic</RightFadingMode>
+									</CrossfadingInfo>
+								</BlendTrackAssoc>
+							</BlendTrackAssocList>
+						</BlendTrack>
+					</BlendTrackList>
+				</BlendContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

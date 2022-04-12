@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F0A22E25-0D56-4BEA-A1A4-5CA5F45BF5EE}" SchemaVersion="97">
+	<GameParameters>
+		<WorkUnit Name="rain" ID="{F0A22E25-0D56-4BEA-A1A4-5CA5F45BF5EE}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="14"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<GameParameter Name="rain_intensity" ID="{625BC551-3E8D-465F-8761-3257A8D43255}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="8"/>
+						<Property Name="Max" Type="Real64" Value="8"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="1"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>
